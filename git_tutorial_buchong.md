@@ -73,4 +73,48 @@ git push origin main
 
 
 
+1. 列出所有远程分支：
+你可以使用以下命令查看远程仓库中所有的分支：
+
+bash
+复制
+编辑
+git branch -r
+这将列出所有远程分支，比如：
+
+bash
+复制
+编辑
+origin/main
+origin/branch_1.1
+origin/branch_1.2
+2. 切换到远程分支：
+如果你想切换到其中一个远程分支（比如 branch_1.1），你可以运行：
+
+bash
+复制
+编辑
+git checkout branch_1.1
+这会将你的工作目录切换到 branch_1.1 分支。注意，默认情况下，Git 会在本地创建一个跟踪分支与远程分支同步。
+
+3. 拉取并合并远程分支的更改：
+如果你想将这些新分支的内容合并到当前分支，可以使用：
+
+bash
+复制
+编辑
+git merge origin/branch_1.1
+git merge origin/branch_1.2
+这样可以将远程的 branch_1.1 和 branch_1.2 分支合并到你的当前分支（例如 main）中。
+
+4. 删除不再需要的远程分支（如果这些分支不再使用）：
+如果你不再需要这些分支，使用以下命令删除远程分支：
+
+bash
+复制
+编辑
+git push origin --delete branch_1.1
+git push origin --delete branch_1.2
+总结：
+git pull 拉取了远程仓库的最新内容，发现了新的远程分支（branch_1.1 和 branch_1.2），但是没有需要合并的更改到你的 main 分支。
 
