@@ -12,7 +12,7 @@
 
 2. **创建分支**：
    为了避免直接在 `main` 分支上工作，开发者通常会为每个任务创建一个新的分支：
-   ```bash
+   ```bash 131
    git checkout -b feature-branch
    ```
    这会创建一个新的分支 `feature-branch`，并切换到这个分支。
