@@ -37,7 +37,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-
+![alt text](image.png)
 ---
 
 ## 2. `git add`
