@@ -38,10 +38,11 @@
 
 6. **发起 Pull Request**：
    在 GitHub 或其他 Git 托管平台上，开发者可以将自己的分支提交为 **Pull Request**（PR）。PR 允许其他开发者审查代码，并将其合并到 `main` 分支。
+![alt text](0a7c5ff7-4154-449b-8d18-d868dc1bb6b9.png)
 
 7. **审查和合并**：
    审查代码后，开发者会将其合并到 `main` 分支。
-
+![alt text](image-17.png)
 ---
 
 ## 2. 处理 Git 冲突
