@@ -240,3 +240,7 @@ git restore git_learn.md  # 恢复 git_learn.md 文件到上次提交时的状�
 * **`git log`**：查看提交历史。
 * **`git restore`**：恢复文件到上次提交时的状态，丢弃未暂存的更改。
 
+![alt text](image-9.png)
+![alt text](image-8.png)
+![alt text](image-7.png)
+![alt text](image-10.png)
