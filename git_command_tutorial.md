@@ -44,7 +44,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ### 作用：
 
-`git add` 用于将工作目录中的更改添加到暂存区，使其准备好进行提交。你可以选择性地将文件添加到暂存区，或者将所有文件添加进去。
+`git add` 用于将工作目录中的更改添加到暂存区，使其准备好进行提交。可以选择性地将文件添加到暂存区，或者将所有文件添加进去。
 
 ### 语法：
 
@@ -69,7 +69,7 @@ git add git_learn.md  # 将 git_learn.md 文件添加到暂存区
 ```bash
 git add .  # 将当前目录下的所有文件（包括新文件和修改过的文件）添加到暂存区
 ```
-
+![alt text](image-1.png)
 ---
 
 ## 3. `git commit`
@@ -101,7 +101,7 @@ git commit -m "Fixed typo in the git_learn.md file"
   * 第一行简短概括更改内容（50 字以内）。
   * 第二行留空。
   * 后续几行可以详细说明本次更改的背景和影响。
-
+![alt text](image-2.png)
 ---
 
 ## 4. `git push`
@@ -117,7 +117,7 @@ git push origin <branch-name>
 ```
 
 * **`origin`**：远程仓库的默认名称。
-* **`<branch-name>`**：你想推送的本地分支（如 `main` 或 `master`）。
+* **`<branch-name>`**：想推送的本地分支（如 `main` 或 `master`）。
 
 ### 示例：
 
@@ -127,9 +127,9 @@ git push origin main  # 将本地的 main 分支推送到远程仓库
 
 ### 说明：
 
-* 如果你第一次推送分支，Git 会要求你输入 GitHub 或其他平台的用户名和密码。
-* 如果你使用 SSH 方式配置远程仓库，Git 将自动使用 SSH 密钥进行身份验证。
-
+* 第一次推送分支，Git 会要求输入 GitHub 或其他平台的用户名和密码。
+* 使用 SSH 方式配置远程仓库，Git 将自动使用 SSH 密钥进行身份验证。
+![alt text](image-3.png)
 ---
 
 ## 5. `git pull`
