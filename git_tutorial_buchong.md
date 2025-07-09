@@ -118,3 +118,21 @@ git push origin --delete branch_1.2
 总结：
 git pull 拉取了远程仓库的最新内容，发现了新的远程分支（branch_1.1 和 branch_1.2），但是没有需要合并的更改到你的 main 分支。
 
+![alt text](image-11.png)
+![alt text](image-12.png)
+
+### 注意！！！！！！！
+![alt text](image-13.png)
+![alt text](image-14.png)
+git add git_tutorial_buchong.md
+git commit -m "保存当前的更改"
+
+git checkout main
+
+![alt text](image-15.png)
+git stash
+git stash pop
+
+![alt text](image-16.png)
+git checkout -- git_tutorial_buchong.md
+git checkout main
