@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lu145zgg/study-notes_git.git"
+  },
+  "author": "陈",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lu145zgg/study-notes_git/issues"
+  },
+  "homepage": "https://github.com/lu145zgg/study-notes_git#readme"
+}
