@@ -130,4 +130,4 @@ git push origin branch_1.2
 * 如果你想 **恢复到合并前的状态**，可以使用 `git reset --hard HEAD~14` 或 `git reset --soft HEAD~14`，取决于你是否需要保留工作目录中的更改。
 * 如果你不想恢复到合并前的状态，而是直接将本地提交推送到远程仓库，可以使用 `git push origin branch_1.2`。
 
-如果你对这些操作有疑问，或者希望进一步说明，请随时告诉我！
+
