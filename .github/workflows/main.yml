@@ -1,28 +1,23 @@
-name: Node.js CI
+name: Simple File Storage Workflow
 
+# 触发事件
 on:
   push:
     branches:
-      - main  # 当推送到 main 分支时触发
+      - main  # 每次推送到 main 分支时触发
   pull_request:
     branches:
-      - main  # 当创建一个 PR 到 main 分支时触发
+      - main  # 每次创建 PR 到 main 分支时触发
 
 jobs:
-  test:
+  file-management:
     runs-on: ubuntu-latest  # 在 Ubuntu 环境中运行
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2  # 检出代码
+      uses: actions/checkout@v2  # 检出仓库中的代码文件
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2  # 设置 Node.js 环境
-      with:
-        node-version: '14'  # 设置 Node.js 版本为 14
-
-    - name: Install dependencies
-      run: npm install  # 安装项目依赖
-
-    - name: Run tests
-      run: npm test  # 运行单元测试
+    - name: Print files
+      run: |
+        echo "Files in the repository:"
+        ls -l  # 列出仓库中的文件，便于查看更新
